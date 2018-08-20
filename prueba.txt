@@ -1,0 +1,10 @@
+me falta hacer la parte donde se configura el server de tr060
+pendientes
+1. cargar dhcp semana 11 LISTO
+2. programa verificador de dhcp para vic LISTO
+	probar programa
+	agregar verificacion de #
+3. carga de programa en github y compatibilidad con windows
+4. revisión de aws. hacer cuenta
+5. revisión de wordpress. hacer cuenta
+6. comenzar con el nms
