@@ -14,4 +14,3 @@
 	<li>3. Cuando se solicite, ingresar el nombre del archivo y la hoja en que se encuentra la informacion.</li>
 	<li>4. Seguir las instrucciones en pantalla. Es importante mencionar que se deberan comentar las lineas indicadas en el archivo de reciente creacion en el servidor remoto <code>~/tmp/dhcp.conf.new</code>. Al finalizar las correcciones se puede proceder a la copia del archivo con <code>sudo cp ~/tmp/dhcp.conf.new /etc/dhcp/dhcpd.conf</code>, para despues reiniciar el servicio <code>sudo systemctl restart isc-dhcp-server</code>.</li>
 </ul>
-<p>Recordar que el servicio genieacs debe estar corriendo para que la aplicacion funcione correctamente.</p>
