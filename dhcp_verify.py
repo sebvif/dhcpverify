@@ -91,7 +91,7 @@ def ftp_download(svr,src_file,dst_path):
 		return False
 
 def ftp_upload(svr,src_file,dst_file):
-	session = ftplib.FTP('138.186.100.36','cwmp','!El4r4')
+	session = ftplib.FTP('189.240.5.86','cwmp','!El4r4')
 	file = open(src_file,'rb')                  # file to send
 	try:
 		print dst_file
@@ -287,8 +287,8 @@ def getNetworks(db,sheet):
 
 networks=getNetworks('ref_net.xlsx','Sheet1')
 print 'Redes cargadas con exito.'
-svr='138.186.100.36'
-ssh_port=60022
+svr='189.240.5.86'
+ssh_port=60122 #puerto pera servidor de produccion
 user_path='/home/cwmp'
 dhcp_conf_path='/etc/dhcp/dhcpd.conf'
 dhcp_bak_path='/tmp/dhcp.conf.bak.'
